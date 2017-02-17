@@ -1,0 +1,7 @@
+parameters:
+#    falkodev_utilisateur.example.class: FalkoDev\UtilisateurBundle\Example
+
+services:
+#    falkodev_utilisateur.example:
+#        class: %falkodev_utilisateur.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

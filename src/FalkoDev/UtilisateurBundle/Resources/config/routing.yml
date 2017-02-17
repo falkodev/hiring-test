@@ -1,0 +1,19 @@
+liste:
+    pattern:    /liste
+    defaults: { _controller: FalkoDevUtilisateurBundle:Default:index }
+
+creerUtilisateur:
+    pattern:    /creer
+    defaults: { _controller: FalkoDevUtilisateurBundle:Default:creer }
+    
+modifierUtilisateur:
+    pattern:    /modifier/{id}
+    defaults: { _controller: FalkoDevUtilisateurBundle:Default:modifier }
+    requirements:
+        id: \d+
+
+supprimerUtilisateur:
+    pattern:    /supprimer/{id}
+    defaults: { _controller: FalkoDevUtilisateurBundle:Default:supprimer }
+    requirements:
+        id: \d+

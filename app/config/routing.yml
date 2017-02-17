@@ -1,0 +1,3 @@
+falkodev_utilisateur:
+    resource: "@FalkoDevUtilisateurBundle/Resources/config/routing.yml"
+    prefix:   /
